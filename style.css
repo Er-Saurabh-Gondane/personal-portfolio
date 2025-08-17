@@ -287,10 +287,10 @@ body{
 
 }
 .progress-value{
-    height: 15px;
+    /* height: 15px; */
     background: var(--progressback);
     border-radius: 100px;
-    border-radius: 100px;
+    /* border-radius: 100px; */
     overflow: hidden;
     position: relative;
   
@@ -337,11 +337,11 @@ body{
 
 .ring circle{
     fill: none;
-     stroke: url(#GradientColor);
+    stroke: url(#GradientColor);
     stroke-width: 15px;
     stroke-dasharray: 472;
     stroke-dashoffset: 472;
-     stroke-dashoffset: 165;
+    stroke-dashoffset: 165;
 }
 .outer{
     display: flex;
